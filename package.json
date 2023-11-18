@@ -8,14 +8,47 @@
     "lib",
     "dist"
   ],
+  "author": {
+    "name": "maxoyed",
+    "email": "maxoyed@gmail.com",
+    "url": "https://github.com/maxoyed"
+  },
+  "contributors": [
+    "maxoyed <maxoyed@gmail.com>"
+  ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxoyed/koishi-plugin-spark-service.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxoyed/koishi-plugin-spark-service/issues"
+  },
+  "homepage": "https://github.com/maxoyed/koishi-plugin-spark-service",
   "scripts": {},
+  "koishi": {
+    "service": {
+      "implements": [
+        "spark"
+      ]
+    },
+    "description": {
+      "zh": "讯飞星火认知大模型基础服务"
+    },
+    "locales": [
+      "zh"
+    ]
+  },
   "keywords": [
     "chatbot",
     "koishi",
-    "plugin"
+    "plugin",
+    "spark"
   ],
   "peerDependencies": {
     "koishi": "^4.15.5"
+  },
+  "dependencies": {
+    "crypto-js": "^4.2.0"
   }
 }
