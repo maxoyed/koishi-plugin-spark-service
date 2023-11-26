@@ -46,7 +46,7 @@
     "spark"
   ],
   "peerDependencies": {
-    "koishi": "^4.15.5"
+    "koishi": "^4.15.6"
   },
   "dependencies": {
     "crypto-js": "^4.2.0"
